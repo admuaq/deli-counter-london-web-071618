@@ -9,7 +9,8 @@ else
   message = "The line is currently: "
   i = 0
   while katz_deli.length > 0 
-    cont << 
+    message += "#{i+1} #{katz_deli[i]"
+    
     
     
 end
