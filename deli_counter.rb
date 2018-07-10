@@ -7,6 +7,7 @@ def line(katz_deli)
 else
   cont = []
   message = "The line is currently: "
+  i = 0
   while katz_deli.length > 0 
     
     
