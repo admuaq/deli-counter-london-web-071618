@@ -4,15 +4,15 @@ katz_deli = []
 def line(katz_deli)
   if katz_deli.length == 0 
   puts "The line is currently empty."
-else
-  cont = []
-  message = "The line is currently: "
-  i = 0
-  while i < katz_deli.length
-    message+="#{i+1} #{katz_deli[i]}"
-    i++
-  end 
-  puts message
+  else
+    cont = []
+    message = "The line is currently: "
+    i = 0
+    while i < katz_deli.length
+      message+="#{i+1} #{katz_deli[i]}"
+      i++
+    end 
+    puts message
 end
     
     
