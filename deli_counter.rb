@@ -10,7 +10,8 @@ else
   i = 0
   while katz_deli.length > 0 
     message += "#{i+1} #{katz_deli[i]"
-    
+    i++
+  end 
     
     
 end
