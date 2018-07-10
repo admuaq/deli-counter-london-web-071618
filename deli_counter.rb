@@ -7,8 +7,8 @@ def line(katz_deli)
 else
   cont = []
   message = "The line is currently: "
-  katz_deli.each_index do |name i|
-    cont << katz_deli(name, i)
+  katz_deli.each do |name|
+    cont << "#{katz_deli.(name)index} #{katz_deli(name)}"
   end 
   puts message + cont 
     
