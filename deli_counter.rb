@@ -11,7 +11,6 @@ def line(katz_deli)
     while i < katz_deli.length
       message+="#{i+1} #{katz_deli[i]}"
       i++
-    end 
     puts message
   end
 end
