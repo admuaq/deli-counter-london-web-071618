@@ -13,6 +13,8 @@ def line(katz_deli)
         message+="#{i+1} #{katz_deli[i]}"
         
       end
+    puts message
+  end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
