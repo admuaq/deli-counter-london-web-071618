@@ -9,6 +9,7 @@ else
   message = "The line is currently: "
   i = 0
   while katz_deli.length > 0 
+    cont << 
     
     
 end
