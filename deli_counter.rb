@@ -9,11 +9,12 @@ def line(katz_deli)
     cont = []
     message = "The line is currently: "
     i = 0
-    while i < katz_deli.length
-      message+="#{i+1} #{katz_deli[i]}"
-      i++
-      puts message
-end
+      while i < katz_deli.length
+        message+="#{i+1} #{katz_deli[i]}"
+        i++
+      end
+            puts message
+    end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
