@@ -20,7 +20,7 @@ end
 
 def take_a_number(katz_deli, name)
   if katz_deli.length == 0 
-    puts 
+    puts "The line is currently empty."
     
   else 
   katz_deli << name
