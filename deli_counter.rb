@@ -11,6 +11,8 @@ def line(katz_deli)
     i = 0
       while i < katz_deli.length
         message+="#{i+1} #{katz_deli[i]}"
+        
+      end
 
 def take_a_number(katz_deli, name)
   katz_deli << name
