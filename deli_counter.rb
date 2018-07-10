@@ -5,8 +5,10 @@ def line(katz_deli)
   if katz_deli.length == 0 
   puts "The line is currently empty."
 else
+  cont = []
+  message = "The line is currently: "
   katz_deli.each_index do |name i|
-  puts "The line is currently: 1. Grace 2. Kent 3. Matz"
+    
 end
 
 def take_a_number(katz_deli, name)
