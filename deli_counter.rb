@@ -7,11 +7,11 @@ def line(katz_deli)
   
   else
     cont = []
-    message = "The line is currently: "
+    message = "The line is currently:"
     i = 0
     
       while i < katz_deli.length
-        message+="#{i+1}. #{katz_deli[i]}"
+        message+=" #{i+1}. #{katz_deli[i]}"
         i+= 1
       end
     puts message
