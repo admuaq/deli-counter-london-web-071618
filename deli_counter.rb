@@ -9,6 +9,8 @@ else
   message = "The line is currently: "
   katz_deli.each_index do |name i|
     cont << katz_deli(name, i)
+  end 
+  puts message + cont 
     
 end
 
