@@ -13,7 +13,6 @@ def line(katz_deli)
       i++
     end 
     puts message
-  end
 end
     
     
